@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto 250px 250px;
+    grid-template-rows: 250px 250px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#poem {
+    margin: 80px;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+#sun-1, #sun-2, #sun-3 {
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#sun-1 {
+    background-image: url(https://static01.nyt.com/images/2020/05/19/science/30TB-BORINGSUN1/merlin_172064805_d476abdd-f4da-4015-8ca3-8c45c92c61fa-mediumSquareAt3X.jpg);
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#sun-2 {
+    background-image: url(https://media.npr.org/assets/img/2022/10/28/halloween_sun_2014_2k_print_sq-1a166135d7e961a850486397a06806e95dfdff61.jpeg);
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+#sun-3 {
+    background-image: url(https://s7d2.scene7.com/is/image/TWCNews/FL_ClearwaterBeach_Sunset_Ocean_UGC_JohnReynolds);
+    grid-column: 3/5;
+    grid-row: 2/3;
+}

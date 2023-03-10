@@ -1,0 +1,21 @@
+.mobile-device, .tablet, .pc {
+    display: none;
+}
+
+@media only screen and (max-width: 688px) {
+    .mobile-device {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 689px) {
+    .tablet {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1312px) {
+    .pc {
+        display: block;
+    }
+}

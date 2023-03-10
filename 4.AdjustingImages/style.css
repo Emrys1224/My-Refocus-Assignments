@@ -1,0 +1,67 @@
+:root {
+    font-family: sans-serif;
+    color: white;
+}
+
+header {
+    background-color: #162040;
+    height: 50px;
+    padding: 0px 30px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+img {
+    display: none;
+}
+
+nav {
+    display: none;
+}
+
+p {
+    margin-left: 27px;
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    header {
+        padding: 0 60px;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    img {
+        display: block;
+        font-size: 40px;
+        height: 100px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    header {
+        padding: 0 60px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+}

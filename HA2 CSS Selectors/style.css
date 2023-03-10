@@ -1,0 +1,15 @@
+.red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+h2 {
+    color: gray;
+}
+
+* {
+    color: purple;
+}

@@ -1,0 +1,26 @@
+@use 'variables';
+
+@mixin triangle-vertical() {
+    width: 0;
+    height: 0;
+    border-top: variables.$triangle-side;
+    border-bottom: variables.$triangle-side;
+}
+
+@mixin triangle-horizontal() {
+    width: 0;
+    height: 0;
+    border-left: variables.$triangle-side;
+    border-right: variables.$triangle-side;
+}
+
+@mixin ellipse($width, $height, $radius) {
+    width: $width;
+    height: $height;
+    border-radius: $radius;
+}
+
+@mixin rectangle($width, $height) {
+    width: $width;
+    height: $height;
+}

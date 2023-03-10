@@ -1,0 +1,16 @@
+div {
+    border: 1px solid gray;
+    padding: 16px;
+    height: 400px;
+    width: 400px;
+}
+
+h1 {
+    margin: 10px 5px;
+    padding: 10px 13px 11px 12px; 
+}
+
+p {
+    margin: 0px 16px;
+    padding: 6px 0px;
+}
